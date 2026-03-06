@@ -58,6 +58,7 @@
             button1.TabIndex = 1;
             button1.Text = "배경색 바꾸기";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // textBox1
             // 
