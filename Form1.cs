@@ -19,8 +19,7 @@ namespace WinFormsApp1_h
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Random rand = new Random();
-            this.BackColor = Color.FromArgb(rand.Next(256), rand.Next(256), rand.Next(256));
+    
         }
     }
 }
